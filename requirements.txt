@@ -1,0 +1,30 @@
+# First, core numeric libraries
+numpy==1.26.2
+setuptools==65.5.1
+
+# Audio processing
+ffmpeg-python==0.2.0
+soundfile==0.12.1
+pydub==0.25.1
+
+# Torch (CPU version for Windows)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.1+cpu
+torchaudio==2.2.1+cpu
+
+# Whisper
+openai-whisper==20231117
+
+# Utilities
+tqdm>=4.65.0
+typing-extensions>=4.5.0
+
+# FastAPI
+fastapi==0.104.1
+python-multipart==0.0.6
+uvicorn==0.24.0
+
+# Llama-cpp-python
+llama-cpp-python==0.2.23
+
+
